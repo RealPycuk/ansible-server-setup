@@ -1,0 +1,4 @@
+monitoring_dir: /opt/monitoring
+# что проверять blackbox'ом: список host:port
+monitoring_tcp_targets: []
+monitoring_https_targets: []
