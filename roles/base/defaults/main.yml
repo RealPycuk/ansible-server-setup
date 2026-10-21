@@ -1,0 +1,8 @@
+base_packages:
+  - ca-certificates
+  - curl
+  - git                   # роль monitoring берёт стек из git по тегу
+  - htop
+  - jq
+  - python3-systemd       # нужен fail2ban для backend = systemd
+  - unattended-upgrades
